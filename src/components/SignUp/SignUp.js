@@ -149,10 +149,10 @@ const SignUp = () => {
         {isSignedUp && (
           <>
             <button onClick={loginSwitch}>First time Here?</button>
-
+            {/* 
             <a href="/reset">
               <button>Forgot Password?</button>
-            </a>
+            </a> */}
           </>
         )}
       </Form>
